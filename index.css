@@ -48,15 +48,28 @@ h5{
   color: #fff;
   margin-top: 30px;
 }
+.secondbutton:hover,
+.secondbutton:active{
+    background-color: #9767cf;
+    color:#fff;
+   
+}
 .firsttext{
   color: #1f82c4;
 }
 .firstbutton{
   text-decoration: none;
-  background-color:#1f82c4;
+  background-color:#2a9df4;
   color: #fff;
   margin-top: 30px;
 }
+.firstbutton:hover,
+.firstbutton:active{
+    background-color: #add8e6;
+    color:#fff;
+   
+}
+
 .row{
   max-width: 1140px;
   margin: 0 auto;
@@ -114,8 +127,9 @@ section {
   padding-top: 50px;
 }
 .blue-footer{
-  background-color: #1f82c4;
+  background-color: #8fe3f9;
   padding-left: 10%;
+  background-image: linear-gradient(rgba(84, 220, 230, 0.7),rgba(0, 0, 0, 0.7)),url('./utils/assets/images/image-footer.jpg');
 }
 .white-footer{
  color: #fff;
@@ -125,12 +139,18 @@ section {
   color:#656566;
   padding-top: 10px;
 }
-
+/* #1f82c4; */
 .footer-button{
   text-decoration: none;
-  background-color:#1f82c4;
+  background-color:#990ef7;
   color: #fff;
-  margin-top: 50px;
+  margin-top: 50px; 
+}
+.footer-button:hover,
+.footer-button:active{
+    background-color: #9767cf;
+    color:#fff;
+   
 }
 
 .numbering div{
